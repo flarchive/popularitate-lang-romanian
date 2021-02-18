@@ -1,0 +1,24 @@
+flarum-nicknames:
+  admin:
+    permissions:
+      edit_own_nickname_label: Editați propriul nickname
+    settings:
+      max_label: Lungimea maximă a nickname-ului
+      min_label: Lungimea minimă a nickname-ului
+      regex_label: Expresie regulată pentru validare
+      unique_label: Aveți nevoie de nickname-ului unice?
+    wrong_driver: Trebuie să selectați "nickname-ul" ca driver de nume afișat în <a> <strong> Pagina de bază </strong> </a> pentru ca această extensie să aibă efect.
+  api:
+    invalid_nickname_message: Această nickname nu este valid. Vă rugăm să contactați administratorul forumului pentru mai multe informații despre regulile de nickname.
+  forum:
+    change_nickname:
+      submit_button: => core.ref.save_changes
+      title:  => flarum-nicknames.ref.change_nickname
+    edit_user:
+      nicknames_heading: => flarum-nicknames.ref.change_nickname
+      nicknames_text: Nickname
+    settings:
+      change_nickname_button: => flarum-nicknames.ref.change_nickname
+
+  ref:
+    change_nickname: Schimbă Nickname
